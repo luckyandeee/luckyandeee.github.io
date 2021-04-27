@@ -1,0 +1,198 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url("pexels-energepiccom-313691-01.bg1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  rgb(236, 236, 240);
+}
+li a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: Merriweather;
+    font-style: bold,italic;
+}
+.navbar{
+    margin: 0px 0px;
+    padding: 0px 150px;
+    height: auto;
+    width: 100%;
+    background-color: #0d0233;
+    box-shadow: 0 1px 3px rgba(140, 132, 250, 0.493);
+}
+.navbar-text{
+    color: rgb(252, 248, 248);
+    text-transform: uppercase;
+    font-style: bold,italic;
+    font-family: Merriweather;
+    
+}
+.navbar-text:hover{
+    color: whitesmoke;
+}
+.navbar-toggler{
+    border: none;
+    background-image: url("favicon-32x32.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar-toggler:pressed {
+    background-position: stretch;
+}
+
+.fullbox{
+    height: 100%;
+    width: 100%;
+    padding-top:80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.card-group img{
+    max-width:  100%;
+    max-height: 100%;
+    border: none;
+    background-color:   rgba(2, 0, 8, 0.05);  
+
+}
+.pands{
+    top: 50px;
+    padding: 15px 30px;
+    font-family: Merriweather;
+    border: none;
+    background-color:   rgba(211, 209, 214, 0.596); 
+}
+.pands h1{
+    color: rgb(2, 2, 97);
+    text-transform: capitalize;
+}
+.pands p,li{
+    color: inherit;
+    font-size:large;
+    font-weight:bolder;
+}
+.pands li::marker{
+    color: rgb(2, 2, 97);
+}
+.item{
+    top: 50px;
+    padding: 15px 30px;
+    line-height: 17pt;
+    
+}
+.item h1,h2,h3{
+   color: rgb(2, 2, 97);
+   font-style: italic;
+   font-family: Merriweather;
+   text-transform:capitalize;
+   
+}
+.item p{
+    font-family: Merriweather;
+    font-stretch: bold;
+    font-size: x-large;
+    color: black;
+   
+}
+.clients img{
+    height: 15vh;
+    padding: 5px 5px;
+    object-position: center;
+    object-fit: fill;
+    
+    
+}
+.float{
+    position:fixed;
+    width: fit-content;
+	height: fit-content;
+    padding: 2px 2px;
+	bottom: 50px;
+	right: 100px;
+	background-color: green;
+	color:rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: Merriweather;
+	border-radius: 300px;
+    text-transform: capitalize;	
+	box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    
+}
+.float:hover{
+    color:rgb(10, 0, 0);
+    background-color: rgb(112, 212, 112);
+}
+
+.my-float{
+	margin:2px;
+    
+}
+.itemsx li {
+    line-height: 2px;
+}
+.itemsx h1,h2,h3{
+    color: rgb(2, 2, 97);
+    font-style: bold,italic;
+    font-family: Merriweather;
+    text-transform:capitalize;
+    
+ }
+ .itemsx p{
+     font-family: Merriweather;
+     font-stretch: bold;
+     font-size: x-large;
+ }
+ .list-group li a{
+     color:black;
+ }
+ .list-group-item{
+     background-color: rgba(0, 0, 0, 0.151);
+     width: fit-content;
+ }
+.footer{
+    display: block;
+    font-family: Merriweather;
+    text-transform: capitalize;
+    background-color: rgba(12, 12, 0, 0.589);
+    color: rgb(15, 15, 15);
+    text-align: center;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: auto; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: rgba(2, 0, 8, 0.05);
+    margin: auto;
+
+    border: 1px solid rgb(13, 2, 51);
+    width: 100%;
+    height: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px) {
+    html,body {
+        margin: auto;
+        padding: auto;
+        height: fit-content;
+        width: fit-content;
+    }
+    .navbar{
+        padding: 0px 35px ;
+    }
+    .navbar-text{
+    color: rgb(247, 243, 243);
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: Merriweather;
+    }
+    .fullbox{
+        height: 100%;
+        width: 100%;
+        padding: 25px 15px;
+        background-image: url("pexels-taryn-elliott-5405596-01bg2.jpeg");
+        background-size: cover;
+        background-color:rgb(236, 236, 240);    
+    }
+    .item{
+        line-height: normal;
+        padding: 45px 0px;
+        
+    }
+    .item h1,h2{
+        color: rgb(2, 2, 97);
+       font-style: italic;
+       font-family: Merriweather;
+       text-transform:capitalize;
+       font-size: 28px;
+       
+    }
+    .item p{
+        font-family: Merriweather;
+        font-size: 18px;
+       
+    }
+    .card{
+        padding: 2px 2px;
+        margin:  1px 1px;
+    }
+    .card-group, .clients{
+        display: flex-wrap;
+        flex-direction: row;
+        flex-grow: 1;
+    }
+    .clients img {
+        height: fit-content;
+       
+        
+    }
+    .pands {
+        display: flex-wrap;
+        box-shadow: 0 0 0;
+    }
+    .pands h1{
+        font-size: 28px;
+    }
+    .float{
+        position:fixed;
+        width: fit-content;
+        height: fit-content;
+        padding: 5px;
+        bottom: 50px;
+        right: 20px;
+        background-color:rgb(82, 204, 0);
+        color:rgb(19, 18, 18);
+        border-radius: 300px;
+        text-transform: capitalize;	
+        box-shadow: 2px 2px 3px #999;
+        text-align: center;
+    }
+    .float:pressed{
+        color:white;
+        background-color: blue;
+    }
+    
+    .my-float{
+        margin:2px;
+    }
+  
+  }
+  
